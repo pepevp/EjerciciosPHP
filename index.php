@@ -68,4 +68,102 @@
     }else{
         echo "La variable no tiene valor NULL";
     }
+    echo "<br></br>";
+?>
+
+
+<?php
+    $a = 10;
+    $b = 2;
+
+    //operaciones aritméticas
+    echo $a + $b;
+    echo "<br></br>";
+    echo $a - $b;
+    echo "<br></br>";
+    echo $a * $b;
+    echo "<br></br>";
+    echo $a / $b;
+    echo "<br></br>";
+    echo $a % $b;
+    echo "<br></br>";
+
+    //Comprobar que variable es mayor
+    if($a > $b){
+        echo "a es mayor que b";
+    }else{
+        echo "b es mayor que a";
+    }
+    echo "<br></br>";
+
+    //operador ternario
+    $resultado = ($a % 2 == 0) ? "Par" : "Impar";
+    echo "El número es: ", $resultado;
+    echo "<br></br>";
+
+    //Comprobar que ambas variables sean mayor que 10
+    if($a > 10 && $b > 10){
+        echo "a y b son mayores que 10";
+    }else{
+        echo "a y b no son mayores que 10";
+    }
+    echo "<br></br>";
+
+    //Prueba de operadores de incremento
+    $x=5;
+    $y=12;
+
+    echo ++$x;
+    echo "<br></br>";
+
+    echo $x;
+    echo "<br></br>";
+
+    echo $x++;
+    echo "<br></br>";
+
+    echo $x;
+    echo "<br></br>";
+
+    //Prueba de operadores de incremento
+    echo --$y;
+    echo "<br></br>";
+
+    echo $y;
+    echo "<br></br>";
+
+    echo $y--;
+    echo "<br></br>";
+
+    echo $y;
+    echo "<br></br>";
+?>
+
+<?php
+
+$numero1=-1;
+
+    if($numero1<0){
+        echo "el numero es negativo";
+    }else{
+        if($numero1>0){
+            echo "el numero es positivo";
+        }else{
+            echo "el numero es 0";
+        }
+    }
+
+    echo "<br></br>";
+
+    for ($i=1; $i<11; $i++) {
+    echo "$i"," ";
+    }
+    echo "<br></br>";
+
+    $sumaTotal = 0;
+
+    while($i <100){
+        $sumaTotal = $sumaTotal + $i;
+    }
+    echo $sumaTotal;
 ?>
