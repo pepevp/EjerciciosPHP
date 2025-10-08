@@ -5,9 +5,10 @@
     echo "Hola, mi nombre es ", $nombre;
     //Constante con el valor de PI
     define("PI", 3.1416);
-?>
-    <br></br>
-<?php
+    //Linea que muestra por pantalla el valor de PI
+    echo "<br></br>";
+    echo PI;
+    echo "<br></br>";
     //Variable Nombre con la n en mayúscula para comprobar que php diferencia entre mayúsculas y minúsculas
     $Nombre="Jesús Sanchez Catalán";
     echo "Hola, mi nombre es ", $Nombre;
