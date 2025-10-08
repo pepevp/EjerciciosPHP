@@ -116,9 +116,6 @@
     echo ++$x;
     echo "<br></br>";
 
-    echo $x;
-    echo "<br></br>";
-
     echo $x++;
     echo "<br></br>";
 
