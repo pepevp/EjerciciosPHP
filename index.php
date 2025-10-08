@@ -137,8 +137,7 @@
 ?>
 
 <?php
-
-$numero1=-1;
+    $numero1=-1;
 
     if($numero1<0){
         echo "el numero es negativo";
@@ -159,8 +158,42 @@ $numero1=-1;
 
     $sumaTotal = 0;
 
+    $i = 0;
     while($i <100){
+        $i++;
         $sumaTotal = $sumaTotal + $i;
+
     }
     echo $sumaTotal;
+
+    echo "<br></br>";
+    $dia = 5;
+    switch ($dia) {
+        case 1:
+            echo "Lunes";
+            break;
+        case 2:
+            echo "Martes";
+            break;
+        case 3:
+            echo "Miercoles";
+            break;
+        case 4:
+            echo "Jueves";
+            break;
+        case 5:
+            echo "Viernes";
+            break;
+        case 6:
+            echo "Sábado";
+            break;
+        case 7:
+            echo "Domingo";
+            break;
+    }
+    echo "<br></br>";
+    $colores =["naranja", "amarillo","rojo","azul","verde","morado"];
+    foreach ($colores as $color) {
+        echo $color, " ";
+    }
 ?>
