@@ -1,4 +1,5 @@
 <?php
+    //Ejercicio 1
     //variable a la que le asigno mi nombre
     $nombre="Jose Jesus Velazquez Perez";
     //Linea que muestra por pantalla el correspondiente mensaje con el contenido de la variable nombre
@@ -17,6 +18,7 @@
 ?>
 
 <?php
+    //Ejercicio 2
     //variable de tipo entero
     $numEntero = 7;
     //variable de tipo decimal
@@ -73,6 +75,7 @@
 
 
 <?php
+    //Ejercicio 3
     $a = 10;
     $b = 2;
 
@@ -137,6 +140,7 @@
 ?>
 
 <?php
+    //Ejercicio 4
     $numero1=-1;
 
     if($numero1<0){
