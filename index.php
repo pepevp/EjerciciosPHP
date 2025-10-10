@@ -151,6 +151,7 @@
 
     echo "<br></br>";
 
+    //for para mostrar los numeros del 1 al 10
     for ($i=1; $i<11; $i++) {
     echo "$i"," ";
     }
@@ -159,6 +160,7 @@
     $sumaTotal = 0;
 
     $i = 0;
+    //while para sumar los números del 1 al 100
     while($i <100){
         $i++;
         $sumaTotal = $sumaTotal + $i;
@@ -168,6 +170,7 @@
 
     echo "<br></br>";
     $dia = 5;
+    //Estructura de switch
     switch ($dia) {
         case 1:
             echo "Lunes";
@@ -192,7 +195,9 @@
             break;
     }
     echo "<br></br>";
+    //array
     $colores =["naranja", "amarillo","rojo","azul","verde","morado"];
+    //Estructura foreach para mostrar el array completo
     foreach ($colores as $color) {
         echo $color, " ";
     }
